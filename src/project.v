@@ -14,7 +14,6 @@ module tt_um_uwasic_onboarding_brendan_leung (
     input  wire       ena,      // always 1 when the design is powered, so you can ignore it
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
-    assign uio_oe = 8'hFF; // Set all IOs to output
 );
 
   // All output pins must be assigned. If not used, assign to 0.
