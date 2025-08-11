@@ -39,6 +39,6 @@ module tt_um_uwasic_onboarding_brendan_leung (
   );
 
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, clk, rst_n, 1'b0, ui_in[7:3], uio_in};
+  wire _unused = &{ena, ui_in[7:3], uio_in, 1'b0};
 
 endmodule
