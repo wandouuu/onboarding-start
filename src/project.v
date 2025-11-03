@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_uwasic_wandouuu (
+module tt_um_uwasic_onboarding_wandouuu (
     
     assign uio_oe = 8'hFF;
 
